@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+
+}
+/* Main Page*/
+.content{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+/* Navigation Header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+button{
+    padding: 10px;
+}
+
+.loginBtn{
+    color: white;
+    background-color: darkcyan;
+}
+
+
+/* Column Content*/
+.ninja1-border{
+    border: solid 2px grey;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.ninja2-border{
+    border: solid 2px grey;
+    padding: 10px 22px;
+    
+}
+
+.define-border{
+    border: solid 2px grey;
+    height: 300px;
+    padding: 10px;
+}
+
+.define{
+    text-align: justify;  
+    text-align-last: right;
+}
+
+.col-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.likeBtn1{
+    background-color: yellow;
+}
+
+.likeBtn2{
+    background-color: yellow;
+}
+
+
+.col-2{
+    display: flex; 
+    vertical-align: top;
+    padding: 10px;
+}
+
+.defineBtn{
+    background-color: green;
+}
