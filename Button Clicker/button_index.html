@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="./button_style.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <!-- Header(Nav-Bar) -->
+    <div class="header">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button class="loginBtn">Logout</button>
+    </div>
+
+    <!-- Column Content -->
+    <!-- col-1 -->
+    <div class="content">
+        <div class="col-1">
+            <div class="ninja1-border">
+                <!-- ninja definition 1 -->
+                <h1>ninja</h1>
+                <h3>noun </h3>
+                <p class="define">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                </p>
+                    <p>Plural:</p>
+                    <h3>ninjas</h3>
+                <br>
+                <button class="likeBtn1" onclick="alert('Ninja was liked!')">13 likes</button>
+            
+                </div>
+
+                <div class="ninja2-border">
+                    <!-- ninja definition 2 -->
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <p class="define">A <a href="#">programmer</a> who breaks down problems with 
+                        <br><a href="#">zen</a>-like focus</p>
+                    <p>Plural:</p>
+                    <h3>ninjas</h3>
+
+                    <br>
+                    <button class="likeBtn2">37 likes</button>
+                </div>
+
+        </div>
+            <!-- col-2 -->
+                <!-- Define Button -->
+                <div class="col-2">
+                    <div class="define-border">
+                        <h1>Dojonary is <br>defined by YOU</h1>
+                        <button class="defineBtn" onclick="hide(this)">Add Definition</button>
+                        
+                    </div>
+                </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
